@@ -1,0 +1,119 @@
+html {
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+}
+.section{
+	text-align: center;
+}
+
+h1, h2{
+	color: #545454;
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+	margin-bottom: 1em;
+}
+
+div {
+	color: #49657d;
+}
+
+.textAlignLeft{
+    text-align: left;
+}
+
+.textAlignRight{
+    text-align: right;
+}
+
+.button{
+    margin: 0;
+	background-color: #32b746;
+	padding-top:0.8em;
+	padding-bottom:0.8em;
+}
+.button:hover, .button:focus {
+    background-color: #70bf0c;
+}
+
+#header{
+	position:fixed;
+	top:0px;
+	height: 70px;
+	display:block;
+	width: 100%;
+	background-image: url("../images/headerBG.png");
+	background-repeat: repeat-x;
+	z-index:9;
+	text-align:center;
+	color: #f2f2f2;
+	padding: 0 0 0 0;
+}
+#headerLogo {
+	height: 50px;
+}
+#headerMenu {
+	text-align: right;
+}
+#headerMenu a img{
+	height: 30px;
+}
+#headerMenu a{
+	display:inline-block;
+	text-align: center;
+	height:50px;
+	width:23%;
+	margin: 0;
+	padding-top: 10px;
+}
+#headerMenu a:hover {
+	opacity: 0.5;
+}
+#headerMenu .active {
+	background-color: #70bf0c;
+}
+
+.fp-controlArrow.fp-prev {
+	left:50px;
+	margin-top:-25px;
+	height:44px;
+	width:44px;
+	border-width: 0px;
+	background-image: url("../images/leftArrow.png");
+}
+.fp-controlArrow.fp-next {
+	right:50px;
+	margin-top:-25px;
+	height:44px;
+	width:44px;
+	border-width: 0px;
+	background-image: url("../images/rightArrow.png");
+}
+#section2 h1{
+	color: #32b746;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+#section2 h2, #section2 p{
+	color: #545454;
+}
+#section2 .row {
+	padding-top: 50px;
+}
+#fp-nav ul li .fp-tooltip {
+	color: #545454;
+}
+
+#section3 p {
+	color: #888;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+	text-align: center;
+	color: #888;
+	font-size: 14px;
+}
+
+#section4 .row {
+	margin-bottom: 1em;
+}
